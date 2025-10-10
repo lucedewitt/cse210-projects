@@ -4,6 +4,8 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello Develop02 World!");
+        // creates the start menu & runs the program
+        StartMenu menu = new StartMenu();
+        menu.Options();
     }
 }
