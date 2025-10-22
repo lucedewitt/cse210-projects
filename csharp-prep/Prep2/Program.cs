@@ -4,7 +4,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello Prep2 World!");
+        // Console.WriteLine("Hello Prep2 World!");
 
         Console.Write("What is your grade percentage? ");
         string userValue = Console.ReadLine();
