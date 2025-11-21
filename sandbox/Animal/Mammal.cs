@@ -10,4 +10,9 @@ class Mammal
     {
         Console.WriteLine($"{_name} makes no sound");
     }
+    public override string ToString()
+    {
+        // return base.ToString();
+        return $"{this.GetType()} named {_name}";
+    }
 }
