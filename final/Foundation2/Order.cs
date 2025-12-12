@@ -3,7 +3,6 @@ class Order
     private Customer _customer;
     private List<Product> _products = new List<Product>();
     private string _packingLabel;
-    private string _shippingLabel;
     private float _cost;
     public Order(Customer customer, List<Product> products)
     {

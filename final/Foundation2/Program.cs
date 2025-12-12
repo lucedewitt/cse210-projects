@@ -30,6 +30,7 @@ class Program
         Address address2 = new Address("Boggy", "The Bog", "Bog Land", "Witch Lane");
         Customer customer2 = new Customer("Witchy", address2);
         Order order2 = new Order(customer2, products2);
+        Console.WriteLine("_______________________________");
         Console.WriteLine($"\n{order2.ReturnSLabel()}");
         Thread.Sleep(1000);
         Console.WriteLine($"\n{order2.ReturnPLabel()}");
